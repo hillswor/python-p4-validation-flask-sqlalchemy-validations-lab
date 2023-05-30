@@ -15,7 +15,6 @@ db.init_app(app)
 
 @app.route("/")
 def index():
-    ipdb.set_trace()
     return "Validations lab"
 
 
